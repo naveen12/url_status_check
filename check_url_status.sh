@@ -2,7 +2,7 @@
 
 check_url() {
     url="$1"
-    response_code=$(python - <<END
+    response_code=$(python3 - <<END
 import requests
 url = "$url"
 response = requests.get(url)
