@@ -36,3 +36,15 @@ https://www.google.com
 https://www.openai.com
 https://github.com
 https://www.reddit.com
+
+
+
+
+Case study:
+Assume attacker use waybackurls tool and found 150+ url's to verify that manually it will take lot of time, this type situations this shell script will helps a lot.
+
+echo "example.com" | waybackurls > urls.txt
+
+thanks to waybackurls
+https://github.com/tomnomnom/waybackurls
+
